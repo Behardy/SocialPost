@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+h1{
+    font-family: 'Homemade Apple', cursive;
+    color: rgb(3,169,244);
+border-radius: 5px;
+}
+form{
+width: 50%;
+background: #b1ddea;
+}
+post.title{
+    font-size: 24px;
+}

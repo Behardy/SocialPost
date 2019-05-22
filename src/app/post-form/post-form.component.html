@@ -1,0 +1,7 @@
+<form *ngIf ="showForm"
+#postForm= "ngForm" (ngSubmit)= "onSubmit(postForm)">
+<label for="">Post:</label>
+<input type="text" name ="title" ngModel>
+<textarea name="thought" id="" cols="30" rows="10"></textarea>
+<button>Add post</button>
+</form>

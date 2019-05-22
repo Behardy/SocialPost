@@ -1,0 +1,13 @@
+
+<main>
+<h1>My Thought</h1>
+<section>
+<button (click)="toggleForm">New Thought</button>
+<div>
+    <post *ngFor="let post of post; index as i " [post]="post"> </post> 
+</div>
+</section>
+</main>
+
+<post-form *ngIf = show
+submitted= onsubmit($event)></post-form>
